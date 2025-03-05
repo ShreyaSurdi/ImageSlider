@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <button class="prev">&#10094;</button>
+        <div class="slides">
+            <img src="image1.jpg" alt="Image 1" data-caption="Switzerland">
+            <img src="image2.jpg" alt="Image 2" data-caption="Italy,Lake view">
+            <!-- <img src="image3.jpg" alt="Image 3" data-caption="Serene Lake"> -->
+            <img src="image4.jpg" alt="Image 4" data-caption="Northern Lights">
+            <img src="image5.jpg" alt="Image 5" data-caption="Manali,India"> 
+            <img src="image6.jpg" alt="Image 6" data-caption="Hrishikesh,India">
+        </div>
+        <button class="next">&#10095;</button>
+    </div>
+    
+    <div class="caption-container">
+        <p id="caption">Beautiful Sunset</p>
+    </div>
+
+    <div class="thumbnails">
+        <img src="image1.jpg" class="thumb" data-index="0">
+        <img src="image2.jpg" class="thumb" data-index="1">
+        <!-- <img src="image3.jpg" class="thumb" data-index="2"> -->
+        <img src="image4.jpg" class="thumb" data-index="3">
+        <img src="image5.jpg" class="thumb" data-index="4"> 
+        <img src="image6.jpg" class="thumb" data-index="5">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
